@@ -1,0 +1,201 @@
+body {
+  font-family: monospace;
+  margin: 0px;
+  padding: 0px;
+  background-color: #ccc;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/*Feature Image*/
+.Featureimage {
+  width: 100%;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+/* Top right text */
+.menu {
+  margin-top: 35px;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+/*Edit the AWESOME SHOP logo*/
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.shop {
+  color: green;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Edit the title*/
+.title {
+  font-weight: bold;
+  font-size: 38px;
+}
+
+/*Edit the title*/
+.des {
+  font-size: 20px;
+}
+
+/*Edit the width of the searchBar*/
+.searchBar {
+  width: 300px;
+}
+
+/*Edit the margin of the search tool*/
+.search {
+  margin-top: 40px;
+}
+
+/*Promotion Part*/
+/*Main Promotion container edition*/
+
+
+.coupon-icon{
+  display: inline;
+}
+
+.coupon-container {
+  margin: 30px;
+  display: inline;
+  padding: 10px;
+  position: absolute;
+  left:3%;
+  max-width: 500px;
+  border: 3px solid black;
+  background-color: #ea9999;
+  width: 25%;
+  height: 25%;
+}
+
+.delivery-container {
+  margin: 30px;
+  padding: 10px;
+  position: absolute;
+  left: 35.5%;
+  max-width: 500px;
+  border: 3px solid black;
+  background-color: #f6b26b;
+  width: 25%;
+  height: 25%;
+}
+
+.gift-container {
+  margin: 30px;
+  width: 30%;
+  padding: 10px;
+  position: absolute;
+  left: 68%;
+  max-width: 500px;
+  border: 3px solid black;
+  background-color: #c27ba0;
+  width: 25%;
+  height: 25%;
+}
+.icon{
+  width: auto;
+  display: inline;
+  position: absolute;
+  left: 70%;
+  top: 30%;
+}
+.promotion-text{
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 10%;
+}
+.promotion-bottom{
+  position: absolute;
+  top: 60%;
+}
+/*Items container*/
+.items-container{
+  left:3%;
+  width: 100%;
+  position: relative;
+  top: 400px;
+}
+.categories-container{
+  width: 30%;
+}
+.item1{
+  padding: 10px;
+  position: absolute;
+  left: 16%;
+  width: 10%;
+  height: auto;
+  border: 1px solid black;
+}
+
+.item2{
+  padding: 10px;
+  position: absolute;
+  left: 43%;
+  width: 10%;
+  height: auto;
+  border: 1px solid black;
+}
+.item3{
+  padding: 10px;
+  position: absolute;
+  left: 70%;
+  width: 10%;
+  height: auto;
+  border: 1px solid black;
+}
+.discount{
+  display: inline;
+  border-radius: 10px;
+  background: orange;
+  padding: 10px;
+  position: absolute;
+  left: 85%;
+}
+.original-price{
+  color: red;
+  text-decoration: line-through;
+}
+.sale-price{
+  display: inline;
+}
+.cart-buttom{
+  position: absolute;
+  left: 80%;
+}
+.items-container1{
+  left:3%;
+  width: 100%;
+  position: relative;
+  top: 900px;
+}
+.item-image{
+  display: inline;
+  width: 100%;
+}
+.cart{
+  width: 30%;
+}
